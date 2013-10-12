@@ -15,7 +15,7 @@ public class LoggerProblem {
 
     private static final Logger LOG = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
-    @Schedule(second = "*/10", persistent = false)
+    @Schedule(second = "*/10", minute = "*", hour = "*", persistent = false)
     public void log() {
         LOG.info("ok");
     }
