@@ -8,8 +8,8 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>startup-looger-ear</module>
-    <module>startup-looger-ejb</module>
+    <module>startup-logger-ear</module>
+    <module>startup-logger-ejb</module>
   </modules>
 
   <build>
@@ -26,7 +26,7 @@
         <artifactId>maven-ear-plugin</artifactId>
         <version>2.8</version>
         <configuration>
-          <version>7</version>
+          <version>6</version>
           <defaultLibBundleDir>lib/</defaultLibBundleDir>
         </configuration>
       </plugin>
